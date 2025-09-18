@@ -1,0 +1,63 @@
+/* Color pallete */
+:root {
+  --black: #000000;
+  --dkblue: #002f6c;
+  --lblue: #01579b;
+  --sky: #0277bd;
+  --yellow: #ffc947;
+  --gray: #7b7878;
+  --white: #ffffff;
+  --font-size: 1.3rem;
+}
+/* Border Box Model */
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+/* Generic Styles */
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--black);
+  color: var(--white);
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+a {
+  color: var(--lblue);
+}
+
+a:hover {
+  color: var(--yellow);
+  text-decoration: none;
+}
+/* Navbar */
+nav {
+  font-size: 80%;
+  padding: 1rem;
+}
+/*Sections-articles */
+#intro {
+  padding: 4rem 1rem 10rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+#links {
+  padding: 4rem 1rem 10rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* section for fill in div background colors*/
+.section-dkblue {
+  background-color: var(--dkblue);
+}
+.section-gray {
+  background-color: var(--gray);
+}
