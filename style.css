@@ -24,6 +24,10 @@ body {
   margin: 0;
   background-color: var(--black);
   color: var(--white);
+  font-family: 'Roboto Mono', monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 h1,
 h2,
@@ -32,16 +36,23 @@ h3 {
 }
 a {
   color: var(--lblue);
+  text-decoration: none;
 }
 
 a:hover {
   color: var(--yellow);
   text-decoration: none;
+  font-size: 1.4rem;
 }
 /* Navbar */
 nav {
   font-size: 80%;
   padding: 1rem;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 /*Sections-articles */
 #intro {
