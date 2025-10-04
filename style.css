@@ -65,10 +65,18 @@ nav ul {
   max-width: 1200px;
   margin: 0 auto;
 }
+#table {
+  padding: 4rem 1rem 10rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 /* section for fill in div background colors*/
 .section-dkblue {
   background-color: var(--dkblue);
 }
 .section-gray {
   background-color: var(--gray);
+}
+.section-lblue {
+  background-color: var(--sky);
 }
