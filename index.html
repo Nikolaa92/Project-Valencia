@@ -81,5 +81,62 @@
         </table>
       </section>
     </div>
+    <div class="section-dkblue">
+      <section id="forms">
+        <h2>Section for input forms</h2>
+        <form>
+          <fieldset>
+            <label for="firstName">First Name</label>
+            <input name="firstName" id="firstName" type="text" required title="Please enter your name" />
+            <label for="lastName">Last Name</label>
+            <input name="lastName" id="lastName" type="text" required title="Please eneter your Last name" />
+            <label for="gender">Male</label>
+            <input name="gender" id="male" type="radio" />
+            <label for="gender">Female</label>
+            <input name="gender" id="female" type="radio" />
+            <br />
+            <!-- The form will ask the user to select between Red, White or Blue. (input type="checkbox") -->
+            <label for="color"> <input name="color" type="checkbox" id="redBox" /> Red</label>
+            <label for="color"> <input name="color" type="checkbox" id="whiteBox" /> White</label>
+            <label for="color"> <input name="color" type="checkbox" id="blueBox" /> Blue</label>
+            <br />
+            <!-- The form will ask user to pick 1 of 10 different sports (you will make them up). (this will be a drop down list) -->
+            <label for="sport">Choose a sport from the list:</label>
+            <select name="sport" id="sport">
+              <option>Football</option>
+              <option>Basketball</option>
+              <option>Car Racing</option>
+              <option>Motorcycle Racing</option>
+              <option>MMA</option>
+              <option>Golf</option>
+              <option>Swimming</option>
+              <option>Socker</option>
+              <option>Baseball</option>
+              <option>Rock Climbing</option>
+            </select>
+            <br />
+            <!-- The form will ask the user to write about Global Warming. (this will be a text area, the area will be 20x50) -->
+            <label for="commentBox">
+              Please share your point of view on Global Warming
+              <br />
+              <textarea id="commentBox" name="commentBox" rows="20" cols="50"></textarea>
+            </label>
+            <br />
+            <label for="password">
+              Please enter your password
+              <input type="password" name="password" id="password" maxlength="10" required title="Please enter your password" />
+            </label>
+            <br />
+            <!-- The form will allow the user to select a file to submit. (input type="file) -->
+            <label for="file"> Upload file </label>
+            <input type="file" name="file" id="file" />
+            <br />
+            <button for="submitButton">
+              <input type="submit" name="submitButton" id="submitButton" />
+            </button>
+          </fieldset>
+        </form>
+      </section>
+    </div>
   </body>
 </html>
