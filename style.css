@@ -102,3 +102,19 @@ table {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+.content-indent {
+  padding: 4rem 1rem 10rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#TaraVideo {
+  margin: 2rem 0 4rem 0;
+  border-left: 1px solid var(--sand);
+  border-top: 1px solid var(--sand);
+  border-radius: 25px;
+  padding: 1rem;
+  width: 560px;
+  height: 315px;
+}
