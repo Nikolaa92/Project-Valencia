@@ -118,3 +118,14 @@ table {
   width: 560px;
   height: 315px;
 }
+
+/*Section for printable part of page */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #intro,
+  #intro * {
+    visibility: visible;
+  }
+}
