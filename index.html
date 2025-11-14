@@ -1,16 +1,17 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/style.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&amp;display=swap" rel="stylesheet" />
     <title>Nikola Andelkovic</title>
   </head>
   <body>
-    <nav>
+    <div id="nav">
       <ul>
         <li>
           <h1><a href="index.html">Nikola Andelkovic</a></h1>
@@ -19,30 +20,31 @@
         <li><a href="https://github.com/Nikolaa92">Github</a></li>
         <li><a href="https://www.linkedin.com/in/nikola-andelkovic/">LinkedIn</a></li>
       </ul>
-    </nav>
-    <br />
+      <br />
+    </div>
     <div class="section-dkblue">
-      <section id="intro">
+      <div id="intro">
         <h2>About me</h2>
-        <article>
+        <h3>This is my personal page usin XHTML</h3>
+        <div>
           <p>I’m a proud father to a lively 2-year-old daughter and currently work in the tech support department of a telecom company. I began my college education in my home country but decided to continue my studies in a field I’m truly passionate about. I’m now pursuing an AS in Computer Programming and Analytics at <a href="https://valenciacollege.edu/"> Valencia College,</a> where I’m enrolled in three classes this semester.</p>
           <p>I have some prior programming experience, having completed a JavaScript bootcamp and working as a full stack software engineer on an open-source project called Skyscraper. My professional interests center on cloud computing and the ServiceNow platform, and I’m eager to grow my expertise in these areas.</p>
           <p>Feel free to connect with me on LinkedIn, GitHub, or through my Portfolio .</p>
-        </article>
-      </section>
+        </div>
+      </div>
     </div>
     <div class="section-gray">
-      <section id="links">
+      <div id="links">
         <h3>Section for part 2 and added links</h3>
-        <div><a href="https://www.google.com/?zx=1757116102705&no_sw_cr=1">Google</a></div>
+        <div><a href="https://www.google.com/?zx=1757116102705&amp;no_sw_cr=1">Google</a></div>
         <br />
         <div><a href="https://www.youtube.com/">YouTube</a></div>
         <br />
         <div><a href="https://github.com/">GitHub</a></div>
-      </section>
+      </div>
     </div>
     <div class="section-lblue">
-      <section id="table">
+      <div id="table">
         <h3>Section for part 5 - table</h3>
         <h4>Nikola Andelkovic</h4>
         <table id="score-table" cellpadding="10" cellspacing="5">
@@ -79,29 +81,27 @@
             </tr>
           </tbody>
         </table>
-      </section>
+      </div>
     </div>
     <div class="section-dkblue">
-      <section id="forms">
+      <div id="forms">
         <h3>Section for input forms</h3>
         <img src="vc-primary-web-1024x156.png" alt="valencia logo" width="300px" height="auto" />
-        <form>
+        <form action="#" method="post">
           <fieldset>
             <label for="firstName">First Name</label>
-            <input name="firstName" id="firstName" type="text" required title="Please enter your name" />
+            <input name="firstName" id="firstName" type="text" title="Please enter your name" />
             <label for="lastName">Last Name</label>
-            <input name="lastName" id="lastName" type="text" required title="Please eneter your Last name" />
+            <input name="lastName" id="lastName" type="text" title="Please eneter your Last name" />
             <label for="gender">Male</label>
             <input name="gender" id="male" type="radio" />
             <label for="gender">Female</label>
             <input name="gender" id="female" type="radio" />
             <br />
-            <!-- The form will ask the user to select between Red, White or Blue. (input type="checkbox") -->
             <label for="color"> <input name="color" type="checkbox" id="redBox" /> Red</label>
             <label for="color"> <input name="color" type="checkbox" id="whiteBox" /> White</label>
             <label for="color"> <input name="color" type="checkbox" id="blueBox" /> Blue</label>
             <br />
-            <!-- The form will ask user to pick 1 of 10 different sports (you will make them up). (this will be a drop down list) -->
             <label for="sport">Choose a sport from the list:</label>
             <select name="sport" id="sport">
               <option>Football</option>
@@ -116,7 +116,6 @@
               <option>Rock Climbing</option>
             </select>
             <br />
-            <!-- The form will ask the user to write about Global Warming. (this will be a text area, the area will be 20x50) -->
             <label for="commentBox">
               Please share your point of view on Global Warming
               <br />
@@ -125,26 +124,26 @@
             <br />
             <label for="password">
               Please enter your password
-              <input type="password" name="password" id="password" maxlength="10" required title="Please enter your password" />
+              <input type="password" name="password" id="password" maxlength="10" title="Please enter your password" />
             </label>
             <br />
-            <!-- The form will allow the user to select a file to submit. (input type="file) -->
             <label for="file"> Upload file </label>
             <input type="file" name="file" id="file" />
             <br />
-            <button for="submitButton">
-              <input type="submit" name="submitButton" id="submitButton" />
-            </button>
+            <button type="submit" id="submitButton">Submit</button>
           </fieldset>
         </form>
-      </section>
+      </div>
     </div>
     <div class="section-gray">
-      <section id="media-links" class="content-indent">
+      <div id="media-links" class="content-indent">
         <h3>Section for media Link</h3>
         <p>I’m passionate about nature and national parks, and here’s my favorite one from Serbia, where I was born.</p>
-        <iframe src="https://player.vimeo.com/video/239679043" id="TaraVideo" title="Tara national park" allowfullscreen></iframe>
-      </section>
+        <object data="https://player.vimeo.com/video/239679043" id="TaraVideo" title="Tara national park"></object>
+      </div>
     </div>
+    <p>
+      <a href="https://validator.w3.org/check?uri=referer"><img src="https://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+    </p>
   </body>
 </html>

@@ -45,11 +45,11 @@ a:hover {
   font-size: 1.4rem;
 }
 /* Navbar */
-nav {
+#nav {
   font-size: 80%;
   padding: 1rem;
 }
-nav ul {
+#nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
