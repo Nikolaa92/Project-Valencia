@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&amp;display=swap" rel="stylesheet" />
+    <script src="index.js"></script>
     <title>Calculation page</title>
   </head>
   <body>
@@ -35,11 +36,12 @@
           </thead>
           <tbody>
             <tr>Result</tr>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td id="sumCell"></td>
+            <td id="productCell"></td>
+            <td id="resultCell"></td>
           </tbody>
         </table>
+        <button onclick="calculate()">Calculate Result</button>
       </div>
     </div>
   </body>
