@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&amp;display=swap" rel="stylesheet" />
+    <script src="index.js"></script>
+    <title>Calculation page</title>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to my calculation page</h1>
+    </header>
+    <h2>Please follow the instructions below</h2>
+    <div class="section-dkblue">
+      <div id="calculationTable">
+        <form action="#" method="post">
+          <fieldset>
+            <label for="inputX">Please enter the X value:</label>
+            <input name="inputX" id="inputX" type="number" title="Please enter X value" />
+            <label for="inputY">Please enter the Y value:</label>
+            <input name="inputY" id="inputY" type="number" title="Please eneter your Last name" />
+          </fieldset>
+        </form>
+        </br>
+        <table id="result-table" cellpadding="10" cellspacing="5">
+          <thead>
+            <tr>
+              <th>Sum</th>
+              <th>Product</th>
+              <th>Bigger number</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>Result</tr>
+            <td id="sumCell"></td>
+            <td id="productCell"></td>
+            <td id="resultCell"></td>
+          </tbody>
+        </table>
+        <button onclick="calculate()">Calculate Result</button>
+      </div>
+    </div>
+  </body>
+</html>
